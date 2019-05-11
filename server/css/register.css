@@ -1,0 +1,28 @@
+.register{margin:0 auto 50px auto}
+.r-l{width:45%;float:left}
+.r-l p{font:14px/40px "";color:rgb(150, 150, 150)}
+.r-l p a{color:rgb(150, 150, 150)}
+.r-l p a:hover{color:#f00}
+.r-l .write{width:100%;border:1px solid rgb(179, 179, 179)}
+.r-l .write p{font:25px/60px "";color:#000;text-indent: 38px}
+.r-l .write .tel{width:85%;}
+.r-l .write  span{font:14px/20px "";color:#f00;margin-bottom:10px;height:20px;}
+.r-l .write  label{width:100%;border:1px solid rgb(179, 179, 179)}
+.r-l .write  label b{font:16px/45px "";color:#000;width:20%;text-align: center;}
+.r-l .write  label i{border-left:1px solid rgb(179, 179, 179);height:30px;}
+.r-l .write  label input{border:0;outline: none;margin-left: 20px;}
+.r-l .write .pass{width:85%;}
+.r-l .write .pass-agin{width:85%;}
+.r-l .write .read{width:85%;font:14px/50px "";}
+.r-l .write .read input{cursor: pointer;}
+.r-l .write .read a{font:14px/50px "";color:yellowgreen}
+.r-l .write .sub{width:85%;}
+.r-l .write .sub b{text-align: center;background:rgb(190, 190, 190);font:28px/50px "";color:#fff;margin-bottom:20px;cursor: pointer;}
+.r-l .write .sub b:hover{background:rgb(196, 195, 195);}
+.r-l .write .login{width:85%;text-align: center;font:16px/60px "";color:rgb(150, 150, 150)}
+.r-l .write .login a{color:yellowgreen}
+.r-l .write .login a:hover{color:#f00;}
+.r-l .write #span{font:14px/20px "";color:#f00;}
+
+.r-r{width:500px;height:500px;float:left;margin:50px 0 0 140px;}
+.r-r img{width:100%;height:100%;border-radius: 30px;}

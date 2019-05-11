@@ -1,0 +1,49 @@
+$fs:16px;
+html{
+    font-size:$fs;
+}
+// body{
+//     font-size:16px;
+// }
+// hhh5555
+@function pTr($px){
+    @return $px/$fs*1rem;
+}
+
+.login{margin:0 auto pTr(50px) auto;}
+.r-l{
+    width:45%;
+    p{  font-size: pTr(14px) ;
+        line-height: pTr(40px);
+        color:rgb(150, 150, 150);
+        a{color:rgb(150, 150, 150);
+            &:hover{color:red}
+         } 
+     }
+}
+
+.r-l .write{
+    width:100%;border:pTr(1px) solid rgb(179, 179, 179);
+    p{font-size: pTr(25px);line-height: pTr(60px);color:#000;text-indent: pTr(38px);}
+    .tel{width:85%;}
+    span{font-size: pTr(14px);line-height: pTr(20px);color:red;margin-bottom:pTr(10px);opacity: 0;}
+    label{width:100%;border:pTr(1px) solid rgb(179, 179, 179);
+    b{width:20%;text-align: center;font-size: pTr(16px);line-height: pTr(45px);}
+    i{border-left:pTr(1px) solid rgb(179, 179, 179);height:pTr(30px);}
+    input{border:0;outline: none;margin-left: pTr(20px);}
+    }
+    .pass{width:85%;}
+    .read{width:85%;font-size:pTr(14px);line-height: pTr(50px);
+    a{color:yellowgreen;&:hover{color:red;}}
+    }
+    .sub{width:85%;text-align: center;background:rgb(190, 190, 190);font-size: pTr(28px);line-height: pTr(50px); color:#fff;
+    b{margin-bottom:pTr(20px);}
+    }
+    .register{width:85%;text-align: center;font-size: pTr(16px);line-height: pTr(60px) ;color:rgb(150, 150, 150);
+    a{color:yellowgreen;&:hover{color:red;}} 
+    }
+}
+
+.r-r{width:500px;height:500px;float:left;margin:50px 0 0 140px;}
+.r-r img{width:100%;height:100%;border-radius: 30px;}
+

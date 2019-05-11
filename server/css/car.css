@@ -1,0 +1,11 @@
+.car h5{font:25px/80px ""}
+.car{}
+.car a{display:block;width:450px;margin:0 auto;font:40px/2 "";color:yellowgreen;text-align: center;}
+.car a img{width:450px;}
+.car thead tr th{text-align: center;}
+.car tbody tr td{font:16px/60px "";}
+.car img{width:50px;}
+.car em{display: block;width:100px;line-height:30px;color: #fff;background:yellowgreen;margin: 10px auto;text-align: center;border-radius: 6px;cursor: pointer;}
+td:nth-child(3){color:red;font:700 18px/60px "";}
+td input{border:0;outline: none;width:60px;text-indent: 22px;}
+

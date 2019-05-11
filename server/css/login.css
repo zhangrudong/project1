@@ -1,0 +1,85 @@
+html {
+  font-size: 16px; }
+
+.login {
+  margin: 0 auto 3.125rem auto; }
+
+.r-l {
+  width: 45%; }
+  .r-l p {
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+    color: #969696; }
+    .r-l p a {
+      color: #969696; }
+      .r-l p a:hover {
+        color: red; }
+
+.r-l .write {
+  width: 100%;
+  border: 0.0625rem solid #b3b3b3; }
+  .r-l .write p {
+    font-size: 1.5625rem;
+    line-height: 3.75rem;
+    color: #000;
+    text-indent: 2.375rem; }
+  .r-l .write .tel {
+    width: 85%; }
+  .r-l .write span {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: red;
+    margin-bottom: 0.625rem;
+    height:20px; 
+    }
+  .r-l .write label {
+    width: 100%;
+    border: 0.0625rem solid #b3b3b3; }
+    .r-l .write label b {
+      width: 20%;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 2.8125rem; }
+    .r-l .write label i {
+      border-left: 0.0625rem solid #b3b3b3;
+      height: 1.875rem; }
+    .r-l .write label input {
+      border: 0;
+      outline: none;
+      margin-left: 1.25rem; }
+  .r-l .write .pass {
+    width: 85%; }
+  .r-l .write .read {
+    width: 85%;
+    font-size: 0.875rem;
+    line-height: 3.125rem; }
+    .r-l .write .read a {
+      color: yellowgreen; }
+      .r-l .write .read a:hover {
+        color: red; }
+  .r-l .write .sub {
+    width: 85%;
+    text-align: center;
+    background: rgb(255, 115, 0);
+    font-size: 1.75rem;
+    line-height: 3.125rem;
+    color: #fff; 
+    
+  }
+    .r-l .write .sub b {
+      margin-bottom: 1.25rem; 
+      cursor: pointer;
+    }
+  .r-l .write .register {
+    width: 85%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 3.75rem;
+    color: #969696; }
+    .r-l .write .register a {
+      color: yellowgreen; }
+      .r-l .write .register a:hover {
+        color: red; }
+
+        .r-r{width:400px;float:left;margin:50px 0 0 140px;}
+        .r-r img{width:100%;border-radius: 30px;}

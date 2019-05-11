@@ -1,0 +1,10 @@
+.list{margin-bottom:10px;}
+.list h5{width:100%;background:yellowgreen;margin-top:20px;font:25px/40px "";color:#fff;text-indent: 30px;}
+.list ul{width:100%;border-left:1px solid rgb(212, 212, 212);}
+.list ul li{float:left;width:20%;height:308px;text-align: center;border-right:1px solid rgb(212, 212, 212);border-bottom:1px solid rgb(212, 212, 212);}
+.list ul li:hover{box-shadow:0 0 10px rgb(197, 197, 197);}
+.list ul li img{width:50%;display: block;margin:10% auto;}
+.list ul li span{display:block;color:red;font:22px/40px "";text-align: left;margin-left:3%;}
+.list ul li p{margin:5% auto 0 auto; width:95%;height:40px;text-align: left; font-size: 14px;line-height: 20px;}
+.list ul li em{display:block;width:95%;margin:6% auto;font:18px/30px "";color:#fff;background:rgb(255, 115, 0);cursor: pointer;display:none;}
+.list ul li:hover em{display:block;}
